@@ -11,6 +11,7 @@
 void consumeLaserData(const sensor_msgs::LaserScan::ConstPtr& scan)
 {
 	ROS_INFO_STREAM("Laser reading"<< scan->ranges[30] << scan->ranges[300]);
+	ROS_INFO_STREAM("Testing");
 }
 
 int main(int argc, char **argv) {
