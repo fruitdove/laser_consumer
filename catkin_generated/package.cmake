@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "laser_consumer")
+set(laser_consumer_MAINTAINER "eric97 <eric97@todo.todo>")
+set(laser_consumer_DEPRECATED "")
+set(laser_consumer_VERSION "0.0.0")
+set(laser_consumer_BUILD_DEPENDS "rosconsole" "roscpp" "sensor_msgs")
+set(laser_consumer_RUN_DEPENDS "rosconsole" "roscpp" "sensor_msgs")
+set(laser_consumer_BUILDTOOL_DEPENDS "catkin")
